@@ -1,0 +1,94 @@
+body{font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+
+.flexible-conteiner{
+    display: flex;
+    margin: bottom 200px; ;
+}
+.learned{
+    display:flex;
+}
+h1{
+    size:50px;font:href="https://fonts.googleapis.com/css?family=Trirong"
+}
+h2{
+    font-size:40px ;
+}
+.orange-highlight{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+  float: left;
+    margin:5%;
+    padding:2%;
+}
+
+
+.half-width img{
+ width:100% ;   
+}
+section{
+    height: 500px;
+}
+
+.top-banner{
+
+    background-image:url(images/top-banner.png) ;
+    background-repeat:no-repeat;;
+}
+
+.button-H{
+text-decoration: none;
+background-image:linear-gradient(45deg,lightsalmon,tomato);
+padding: 10px 20px ;
+border-radius: 5px;
+color:aliceblue;;
+font-weight: 700;
+}
+
+
+
+.discount{
+    color: darkorange;
+    font-weight:700 ;
+}
+p{
+    color: rgb(46, 42, 42);
+}
+.dream{
+
+    background-image:url(images/dream-bg.png) ;
+    background-repeat:no-repeat;
+    background-position:right ;
+}
+.single-experience{  box-shadow: 10px 10px 40px gray;
+    border-radius:5px;
+    height:70%;
+
+}
+.experience-area{
+ background-image:url(images/exp-bg.png) ;  
+ background-repeat:no-repeat;
+background-position:left;
+}
+#forborder{ 
+     place-content:left ;
+    border-left: 7px solid;
+    border-image: linear-gradient(90deg,lightsalmon,tomato ) ;
+    border-image-slice:1;
+    
+ }
+ #tomatob{
+    border-left:7px ;
+    border-image:linear-gradient(90deg,blue,cyan)
+    border-image-slice:1;
+ }
+ #exp-a{
+     margin-left:20px ;
+ }
+ footer p{
+    text-align:center;
+ }
